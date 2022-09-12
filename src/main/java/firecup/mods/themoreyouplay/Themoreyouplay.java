@@ -13,6 +13,7 @@ public class Themoreyouplay implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        System.out.println("ZA WAURLUDO TOKYO TOMORE");
         TMYPItems.registermoditems();
         TMYPBlocks.registermodblocks();
         TMYPReforgeTags.registertags();
