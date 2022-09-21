@@ -9,7 +9,9 @@ import org.spongepowered.asm.mixin.injection.Inject;
 
 @Mixin(SwordItem.class)
 public class Swordhookinmix  {
+        public int Rarity(){
 
+        }
 
     }
 

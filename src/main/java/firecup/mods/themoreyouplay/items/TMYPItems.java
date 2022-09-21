@@ -8,10 +8,12 @@ import net.minecraft.util.registry.Registry;
 
 public class TMYPItems {
 
-    public static final Item STONESTICK = registeritem("stone_stick" , new MagicStick(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item STONESTICK = registeritem("stone_stick" ,
+            new MagicStick(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item FORGEDDIAMONDSWORD = registeritem("swordman" , new reforgedsword(ToolMaterials.DIAMOND,3, -2.4F, false ,new Item.Settings().group(ItemGroup.COMBAT)));
 
-
+    public static final Item ENGCORE = registeritem("noengcore" ,
+            new MagicStick(new FabricItemSettings().group(ItemGroup.MISC)));
 
 
     private static Item registeritem(String name, Item item){
